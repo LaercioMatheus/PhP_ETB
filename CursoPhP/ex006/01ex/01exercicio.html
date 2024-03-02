@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <!--ESSE MÉTODO 'GET' TAMBEM PODE SER 'POST' -->
+    <!--O MÉTODO GET ENVIA DADOS PELA URL E O MÉTODO POST ENVIA POR DADOS POR PACOTES-->
+    <!--O 'ACTION'() INDICA QUE ELE VAI EXECUTAR UMA AÇÃO  PARA ONDE OS DADOS SERAO ENVIADOS-->
+    <form method="get" action="index.php">
+        <!--'INPUT VAI CRIAR VARIOS CONTROLES, ESSE VAI CRIAR UMA CAIXA DE TEXTO-->
+        Valor:<input type="number" name="v"/> <!--O NOME DO OBJETO E O 'v'-->
+        <!--SUBMIT SÃO OBJETOS QUE ENVIAM DADOS PELO 'ACTION' NA PRIMEIRA LINHA()-->
+        <input type="submit" value="Calcular Raíz" class="botao"/>
+    </form>
+</body>
+</html>

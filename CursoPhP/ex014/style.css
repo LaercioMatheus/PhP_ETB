@@ -1,0 +1,14 @@
+@media screen {
+    
+}
+
+body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(43, 21, 21);
+    font-size: 15pt;
+}
+
+hr {
+    background-color: rgba(255, 0, 0, 0.404);
+}

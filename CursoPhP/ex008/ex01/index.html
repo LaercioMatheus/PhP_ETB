@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01html</title>
+    <style>
+        body {
+            font-family: Georgia;
+            font-size: 12pt;
+            background-color: rgb(236, 62, 91);
+        }
+        input {
+            width: 80px;
+            height: 20px;
+            border-radius: 2px;
+            background-color: wheat;
+        }
+        input.botao {
+            border-radius: 6px;
+            background-color: cadetblue;
+            color: beige;
+        }
+        select {
+            border-radius: 2px;
+            background-color: rgb(44, 173, 233);
+            color: wheat;
+        }
+    </style>
+</head>
+<body>
+    <form method="get" action="ex01.php">
+    <h2>Informe um número:</h2>
+    Número:
+    <input type="number" placeholder="1,2,3,4..." name="num"/>
+
+    <h3>Qual tipo de calculo você quer fazer?</h3>
+    <label for="tipo">Tipo</label>
+    <select name="tipon" id="tipo">
+        <option value="1">[1] Dobro</option>
+        <option value="2">[2] Cubo</option>
+        <option value="3">[3] Raíz Quadrada</option>
+        <option value="outro">[Encerrar]</option>
+    </select><p>
+
+    <!--
+        <fieldset>
+            <legend>Operação</legend>
+            <input type="radio" name="oper" id="dobro" checked>
+            <label for="dobro">Dobro</label>
+            <input type="radio" name="oper" id="cubo">
+            <label for="cubo">Cubo</label>
+            <input type="radio" name="oper" id="raiz">
+            <label for="raiz">Raíz Quadrada</label>
+        </fieldset>
+    -->
+
+    <input type="submit" value="Calcular" class="botao"/>
+    </form>
+
+</body>
+</html>
